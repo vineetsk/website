@@ -282,15 +282,12 @@ theme = "LoveIt"
 
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
+[[menu.main]]
+    identifier = "bio"
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
+    name = "Bio"
+    url = "/bio/"
     title = ""
     weight = 1
   [[menu.main]]
@@ -302,13 +299,24 @@ theme = "LoveIt"
     title = ""
     weight = 2
   [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 3
+  [[menu.main]]
     identifier = "books"
     pre = ""
     post = ""
     name = "Books"
     url = "/books/"
     title = ""
-    weight = 3
+    weight = 4
 	
 
 # Markup related configuration in Hugo
