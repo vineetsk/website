@@ -1,3 +1,319 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://vineetkulkarni.com"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "Vineet Kulkarni"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  description = "Blogs, Resume, Books, Interests"
+  keywords = ["Resume", "Blogs"]
+  defaultTheme = "auto"
+  gitRepo = "vineetsk/vineetsk.github.io"
+  dateFormat = "02-Jan-2006"
+  images = [""]
+
+  # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    #  Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Vineet Kulkarni"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      #  whether to use typeit animation for title name
+      typeit = false
+	  
+	# Footer config
+  [params.footer]
+    enable = true
+    #  Custom content (HTML format is supported)
+    custom = 'Site hosted at<a href = "https://github.com/vineetsk/vineetsk.github.io"> github</a>'
+    #  whether to show Hugo and theme info
+    hugo = false
+    #  whether to show copyright info
+    copyright = true
+    #  whether to show the author
+    author = true
+    # Site creation time
+    since = 2020
+	
+	#  Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "02-Jan"
+    # amount of RSS pages
+    rss = 0
+	
+	 #  List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    paginate = 20
+    # date format (day and month)
+    dateFormat = "02-Jan"
+    # amount of RSS pages
+    rss = 0
+	
+	# Home page config
+  [params.home]
+    #  amount of RSS pages
+    rss = 0
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = "vineet@hey.com"
+      # URL of avatar shown in home page
+      avatarURL = "https://en.gravatar.com/vineetsureshkulkarni"
+      #  title shown in home page (HTML format is supported)
+      title = "Vineet"
+      # subtitle shown in home page
+      subtitle = "Blogs, Resume, Books, Interests ..."
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+      #  disclaimer (HTML format is supported)
+      disclaimer = ""
+
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      #  replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+	  
+	    # Social config about the author
+  [params.social]
+    GitHub = "vineetsk"
+    Linkedin = "vineet-kulkarni-99699a7"
+    Twitter = "vineetkulkarni"
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Medium = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    Email = "vineet@hey.com"
+    RSS = false # 
+	
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      #  whether to keep the static table of the contents in front of the post
+      keepStatic = true
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+
+    #  Code config
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
+
+    #  social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = false
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+	  
+  #  Cookie consent config
+  [params.cookieconsent]
+	enable = false
+	# text strings used for Cookie consent banner
+	[params.cookieconsent.content]
+	  message = ""
+	  dismiss = ""
+	  link = ""
+
+  #  Compatibility config
+  [params.compatibility]
+    # whether to use Polyfill.io to be compatible with older browsers
+    polyfill = false
+    # whether to use object-fit-images to be compatible with older browsers
+    objectFit = false
+
+	# Author config
+	[author]
+	  name = "Vineet"
+	  email = "vineet@hey.com"
+	  link = "https://vineetkulkarni.com"
+	  
+	  # Privacy config
+	[privacy]
+	  [privacy.twitter]
+		  enableDNT = true
+	  [privacy.youtube]
+		privacyEnhanced = true
+
+	# Options to make output .md files
+	[mediaTypes]
+	  [mediaTypes."text/plain"]
+		suffixes = ["md"]
+
+	# Options to make output .md files
+	[outputFormats.MarkDown]
+	  mediaType = "text/plain"
+	  isPlainText = true
+	  isHTML = false
+
+	[params.cdn]
+	# CDN data file name, disabled by default
+	# ("jsdelivr.yml")
+	data = ""
+	
+	[params.search]
+	  enable = true
+	  # type of search engine ("lunr", "algolia")
+	  type = "lunr"
+	  # max index length of the chunked content
+	  contentLength = 4000
+	  # placeholder of the search bar
+	  placeholder = ""
+	  #  max number of results length
+	  maxResultLength = 10
+	  #  snippet length of the result
+	  snippetLength = 30
+	  #  HTML tag name of the highlight part in results
+	  highlightTag = "em"
+	  #  whether to use the absolute URL based on the baseURL in search index
+	  absoluteURL = false
+	  [params.search.algolia]
+		index = ""
+		appID = ""
+		searchKey = ""
+
+
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "resume"
+    pre = ""
+    post = ""
+    name = "Resume"
+    url = "/resume/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "books"
+    pre = ""
+    post = ""
+    name = "Books"
+    url = "/books/"
+    title = ""
+    weight = 3
+	
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
