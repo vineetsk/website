@@ -41,7 +41,7 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = 'Site hosted at<a href = "https://github.com/vineetsk/vineetsk.github.io"> github</a>'
+    custom = 'Site source code at<a href = "https://github.com/vineetsk/vineetsk.github.io"> github</a>'
     #  whether to show Hugo and theme info
     hugo = false
     #  whether to show copyright info
