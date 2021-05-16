@@ -11,7 +11,7 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
-  description = "Blogs, Resume, Books, Interests"
+  description = "Blogs, Books, Interests"
   keywords = ["Resume", "Blogs"]
   defaultTheme = "auto"
   gitRepo = "vineetsk/vineetsk.github.io"
@@ -83,7 +83,7 @@ theme = "LoveIt"
       #  title shown in home page (HTML format is supported)
       title = "Vineet"
       # subtitle shown in home page
-      subtitle = "Blogs, Resume, Books, Interests ..."
+      subtitle = "Blogs, Books, Interests ..."
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
@@ -290,14 +290,6 @@ theme = "LoveIt"
     url = "/bio/"
     title = ""
     weight = 1
-  [[menu.main]]
-    identifier = "resume"
-    pre = ""
-    post = ""
-    name = "Resume"
-    url = "/resume/"
-    title = ""
-    weight = 2
   [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons

@@ -4,7 +4,7 @@ author: "Vineet Kulkarni"
 date: 2019-11-17T08:51:20.683Z
 lastmod: 2020-07-20T16:36:41+05:30
 
-description: ""
+description: "Global Day Of Coderetreat #Pune 2019"
 
 subtitle: "November 16th, 2019 8:30am, I didn’t expect that I would be sitting in cozy Bag End to start the Global Day Of Coderetreat. But then…"
 
