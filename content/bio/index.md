@@ -1,7 +1,7 @@
 ---
 title: "Bio"
 author: "Vineet Kulkarni"
-date: 2021-05-16T14:18:00+05:30
+date: 2020-07-20T19:28:55+05:30
 subtitle: "Ex-Boschler with strong more than two decades of experience in product development for critical systems like payment, automotive."
 draft: false
 ---
